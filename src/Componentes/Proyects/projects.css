@@ -1,0 +1,65 @@
+.projects-container {
+    height: 800px;
+    width: 100vw;
+    display: grid;
+    background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    text-align: center;
+    align-content: center;
+    color: antiquewhite;
+    font-size: 100px;
+    letter-spacing: 20px;
+}
+
+.projects-container span {
+    border: 3px solid antiquewhite;
+    width: fit-content;
+    border-radius: 50px;
+    font-size: 40px;
+    padding: 10px;
+    position: relative;
+    left: 600px;
+}
+
+.chapter-div {
+    display: grid;
+    width: 100vw;
+}
+
+.pr1 {
+    height: 800px;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    justify-items: flex-end;
+
+}
+
+
+.pokedex-container {
+    width: 50%;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    justify-items: center;
+    align-items: center;
+    position: relative;
+    left: 45%;
+}
+
+.pokedex-container h1 {
+    font-size: 80px;
+    color: #2f5881;
+}
+
+.pokedex-text {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    color: #2f5881;
+    font-size: 30px;
+}
