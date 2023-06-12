@@ -1,0 +1,39 @@
+.pr2 {
+    height: 1000px;
+    background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
+    background-size: 100% 100%;
+    object-fit: contain;
+    background-repeat: no-repeat;
+    display: grid;
+    grid-template-columns:40% 60%;
+    color: antiquewhite;
+}
+
+.pr2-project {
+    text-align: center;
+    display: grid;
+    grid-template-rows: 30% 70%;
+    height: 100%;
+    align-items: center;
+}
+
+h1{
+    font-size: 80px;
+}
+
+p{
+    font-size: calc(1em + 2vw);
+}
+
+.images-ml{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.images-ml img{
+    height: 250px;
+    border-radius: 20px;
+}

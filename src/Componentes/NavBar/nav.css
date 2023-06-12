@@ -1,23 +1,55 @@
-nav{
-    width: 100%;
-    display: grid;
-    grid-template-columns: 50% 50%;
-    justify-items: center;
-    align-items: center;
-    height: 50px;
-    background: transparent;
-    position: absolute;
-    color: antiquewhite;
-    font-size: 30px;
+@media all and (max-width: 1024PX)
+{
+    nav {
+        margin: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 30% 70%;
+        justify-items: center;
+        align-items: center;
+        background: transparent;
+        position: absolute;
+        color: antiquewhite;
+        font-size: 20PX;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    nav li {
+        list-style: none;
+    }
 }
 
-ul{
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
+
+/*-------MQ DE PC*/
+@media (min-width: 1025px) and (max-width: 2048px) {
+
+nav {
+        margin: 0;
+        width: 100%;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        justify-items: center;
+        align-items: center;
+        background: transparent;
+        position: absolute;
+        color: antiquewhite;
+        font-size: 3rem;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        gap: 20px;
+    }
+
+    nav li {
+        list-style: none;
+    }
 
 }
 
-nav li{
-    list-style: none;
-}

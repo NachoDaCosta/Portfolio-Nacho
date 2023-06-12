@@ -1,6 +1,5 @@
 .education-container {
     background: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\estudios.jpg");
-    height: 500px;
     width: 100vw;
     display: flex;
     flex-direction: column;
@@ -39,13 +38,23 @@
 }
 
 
+
+
 .skills-mini-container {
     display: grid;
     grid-template-rows: 80% 20%;
     justify-items: center;
     align-items: center;
+   
 }
 
 .skills-mini-container span {
     font-size: 40px;
+}
+
+.skills-mini-container img{
+    transition: transform .5s;
+}
+.skills-mini-container img:hover {
+    transform: scale(1.1);
 }

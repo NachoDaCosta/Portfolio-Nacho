@@ -1,34 +1,75 @@
-main{
-    height: 700px;
-    object-fit: contain;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/inicio.jpg");
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-    width: 100vw;
+@media all and (max-width: 1024PX) {
+    main {
+        height: 400px;
+        object-fit: contain;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/inicio.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+    }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 70% 10%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .portfolio-text {
+        color: antiquewhite;
+        font-size: calc(2em + 2vw);
+        letter-spacing: 20px;
+    }
+
+    .developer-text {
+        padding: 20px;
+        color: antiquewhite;
+        font-size: calc(1em + 2vw);
+        border: 5px solid antiquewhite;
+        border-radius: 90px;
+        }
 }
 
-.container{
-    width: 100%;
-    height: 100%;
-    display: grid;
-    grid-template-rows: 70% 10%;
-    justify-items: center;
-    align-items: center;
+
+@media (min-width: 1025px) and (max-width: 2048px) {
+    main {
+        height: 700px;
+        object-fit: contain;
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/inicio.jpg");
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        width: 100%;
+        }
+
+    .container {
+        width: 100%;
+        height: 100%;
+        display: grid;
+        grid-template-rows: 70% 10%;
+        justify-items: center;
+        align-items: center;
+    }
+
+    .portfolio-text {
+        color: antiquewhite;
+        font-size: 120px;
+        letter-spacing: 20px;
+    }
+
+    .developer-text {
+        padding: 20px;
+        color: antiquewhite;
+        font-size: 3em;
+        border: 5px solid antiquewhite;
+        border-radius: 90px;
+    }
 }
 
-.portfolio-text{
-    color: antiquewhite;
-    font-size: 12em;
-    letter-spacing: 20px;
-}
-
-.developer-text{
-    padding: 20px;
-    color: antiquewhite;
-    font-size: 3em;
-    border:5px solid antiquewhite;
-    border-radius: 90px ;
-}

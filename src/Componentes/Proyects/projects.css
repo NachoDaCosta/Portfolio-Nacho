@@ -1,6 +1,100 @@
+@media all and (max-width: 1024PX) {
+    .projects-container {
+            height: 400px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            justify-items: center;
+            align-items: center;
+            color: antiquewhite;
+            font-size: calc(1em + 1vw);
+            letter-spacing: 20px;
+        }
+    
+        .projects-container span {
+            border: 3px solid antiquewhite;
+            border-radius: 50px;
+            font-size: calc(1em + 1vw);
+            padding: 10px;
+        }
+    
+        .chapter-div {
+            display: grid;
+            width:75%;
+        }
+    
+        .pokedex {
+            height: 900px;
+            width: 100%;
+            display:grid;
+            grid-template-areas: "description"
+            "images";
+            background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+        }
+    
+        .pokedex-container {
+            grid-area: description;
+            width: 100%;
+            display: grid;
+            grid-template-rows: 30% 70%;
+            justify-items: center;
+            align-items: center;
+        }
+    
+        .pokedex-container h1 {
+            font-size: calc(4em + 2vw);
+            color: #2f5881;
+        }
+    
+        .pokedex-text {
+            display: flex;
+            padding: 20px;
+            height: 100%;
+            width: 100%;
+            color: #2f5881;
+            font-size: calc(1em + 2vw);
+        }
+    
+        .images-pokedex {
+            grid-area: images;
+            padding: 10px;
+            gap: 20px;
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+    
+        .images-pokedex img {
+            height: calc(16em);
+            width: 150px;
+            border-radius: 30px;
+            transition: transform .5s;
+        }
+    
+        .images-pokedex img:hover {
+            transform: scale(1.1);
+        }
+    
+        .gap-imagenes {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+        }
+}
+
+@media (min-width: 1025px) and (max-width: 2048px) {
 .projects-container {
     height: 800px;
-    width: 100vw;
+    width: 100;
     display: grid;
     background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
     background-repeat: no-repeat;
@@ -24,30 +118,26 @@
 
 .chapter-div {
     display: grid;
-    width: 100vw;
+    width: 100%;
 }
 
-.pr1 {
-    height: 800px;
-    width: 100vw;
-    display: flex;
-    flex-direction: row;
+.pokedex {
+    height: 1200px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 60% 40%;
     background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     justify-items: flex-end;
-
 }
 
-
 .pokedex-container {
-    width: 50%;
+    width: 100%;
     display: grid;
     grid-template-rows: 30% 70%;
     justify-items: center;
     align-items: center;
-    position: relative;
-    left: 45%;
 }
 
 .pokedex-container h1 {
@@ -61,5 +151,32 @@
     display: flex;
     flex-wrap: wrap;
     color: #2f5881;
-    font-size: 30px;
+    font-size: calc(1em + 2vw);
 }
+
+.images-pokedex {
+    width: 100%;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.images-pokedex img {
+    height: 500px;
+    width: 300px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+
+.images-pokedex img:hover {
+    transform: scale(1.1);
+}
+
+.gap-imagenes {
+    display: flex;
+    gap: 40px;
+}}
+
+
+
