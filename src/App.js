@@ -8,11 +8,11 @@ import Projects from "./Componentes/Proyects/Proyects";
 function App() {
   return (
     <>
-      <Nav/>
-      <Main/>
-      <About/>
-      <Education/>
-      <Projects/>
+      <Nav />
+      <Main />
+      <About />
+      <Education />
+      <Projects />
     </>
   );
 }
