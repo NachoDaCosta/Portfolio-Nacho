@@ -9,7 +9,7 @@ To install all the dependences
 
 ### `npm start`
 
-To run the react app
+El Portfolio fue diseñado para resoluciones de pc y iphone 12 Pro
 
 
 

@@ -5,12 +5,12 @@
 
 @media all and (max-width: 1024PX) {
     .pr2 {
-        height: 900px;
+        height: 800px;
         background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
         background-size: 100% 100%;
         background-repeat: no-repeat;
         display: grid;
-        grid-template-rows: 30% 60%;
+        grid-template-rows: 20% 80%;
         color: antiquewhite;
     }
 
@@ -19,7 +19,7 @@
         flex-direction: column;
         text-align: center;
         height: 100%;
-        align-items: center;
+        justify-content: center;
     }
 
     h1{
