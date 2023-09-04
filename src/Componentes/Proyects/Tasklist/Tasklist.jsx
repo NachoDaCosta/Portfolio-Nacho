@@ -3,8 +3,19 @@ import "./Tasklist.css";
 const Tasklist = () => {
   return (
     <div className="tasklist-container">
-      <h1>A simple Tasklist</h1>
-      <div className="images-tasklist"></div>
+      <div>
+        <h1>Tasklist</h1>
+        <span>The old familiar to-do list</span>
+      </div>
+      <div className="images-tasklist">
+        <div className="first-row-imgs">
+          <img alt="" src="./imagenes/TL1.png" />
+          <img alt="" src="./imagenes/TL2.png" />
+        </div>
+        <div>
+          <img alt="" src="./imagenes/TL3.png" />
+        </div>
+      </div>
     </div>
   );
 };

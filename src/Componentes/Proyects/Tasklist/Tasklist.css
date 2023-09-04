@@ -3,12 +3,28 @@
         height: 900px;
         width: 100%;
         display: grid;
-        grid-template-rows: 35% 65%;
+        grid-template-rows: 20% 75%;
         background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        justify-content: center;
+        justify-items: center;
         align-items: center;
         color: #2f5881;
+    }
+
+    .images-tasklist{
+        display:grid;
+        grid-template-rows: 50% 50%;
+        gap: 30px;
+    }
+
+    .images-tasklist img {
+        border-radius: 10px;
+        height: 35vh;
+    }
+
+    .first-row-imgs{
+        display: flex;
+        gap: 10px;
     }
 }
