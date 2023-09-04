@@ -5,7 +5,7 @@ section {
         background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/about.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
-        width: 100vw;
+        width: 100%;
     }
 
 
@@ -23,12 +23,12 @@ section {
         padding: 10px;
         display: flex;
         flex-direction: row;
-        justify-content: center;
+        margin: 0 auto;
         align-content: center;
     }
 
     .yo-image {
-        width: calc(20em + 5vw);
+        width: calc(12em + 5vw);
         border: 5px solid #2f5881;
         border-radius: 40px;
     }
@@ -135,7 +135,7 @@ section {
     background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/about.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100vw;
+    width:100%;
 }
 
 
@@ -152,7 +152,7 @@ section {
 .fondo-yo {
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    margin: 0 auto;
     align-content: center;
 }
 

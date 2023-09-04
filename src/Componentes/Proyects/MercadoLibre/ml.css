@@ -3,7 +3,7 @@
     margin: 0;
 }
 
-@media all and (max-width: 1024PX) {
+@media (max-width: 1024PX) {
     .pr2 {
         height: 800px;
         background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");

@@ -7,7 +7,7 @@
             background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\projects.jpg");
             background-repeat: no-repeat;
             background-size: 100% 100%;
-            justify-items: center;
+            justify-content: center;
             align-items: center;
             color: antiquewhite;
             font-size: calc(1em + 1vw);
