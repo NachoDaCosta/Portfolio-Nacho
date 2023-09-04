@@ -2,6 +2,7 @@ import React from "react";
 import './projects.css';
 import Mercado from "./MercadoLibre/Mercado";
 import Pokedex from "./Pokedex/Pokedex";
+import Tasklist from "./Tasklist/Tasklist";
 const Projects = () => {
   return (
     <>
@@ -13,6 +14,7 @@ const Projects = () => {
       </div>
       <Pokedex />
       <Mercado />
+      <Tasklist />
     </>
   );
 };

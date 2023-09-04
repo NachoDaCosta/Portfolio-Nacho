@@ -1,21 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Chicle&display=swap');
 
 * {
-font-family: 'Chicle', cursive;
+  font-family: 'Chicle', cursive;
+  padding: 0;
+  margin: 0; 
 }
 
-#root {
-  width: 100v%;
-  margin: 0;
-}
-
-
-/*
-
-
-No es la nave es el PILOTO
-
-
-
-
-*/
