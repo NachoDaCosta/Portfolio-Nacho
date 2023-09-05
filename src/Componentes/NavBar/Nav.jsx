@@ -1,23 +1,17 @@
 import React from "react";
 import './nav.css'
 const Nav=()=>{
-    return(
-        <nav>
-            <div>
-                Juan Da Costa
-            </div>
+    return (
+      <nav>
+        <div>Juan Da Costa</div>
 
-            <div>
-                <ul>
-                    <li>Home</li>
-                    <li>About me</li>
-                    <li>Projects</li>
-                    <li>Contact</li>
-
-                </ul>
-            </div>
-        </nav>
-    )
+        <div className="links">
+          <a href="#about">About me</a>
+          <a href="#contact">Contact</a>
+          <a href="#projects">Projects</a>
+        </div>
+      </nav>
+    );
 }
 
 export default Nav;

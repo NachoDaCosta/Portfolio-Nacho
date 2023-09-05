@@ -1,0 +1,13 @@
+@media all and (max-width: 1024PX) {
+    footer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        height: 4vh;
+        background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/inicio.jpg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        color: antiquewhite;
+    }
+}

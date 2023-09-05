@@ -1,6 +1,7 @@
 @media all and (max-width: 1024PX)
 {
     nav {
+        height: 7vh;
         margin: 0;
         width: 100%;
         display: grid;
@@ -9,18 +10,20 @@
         align-items: center;
         background: transparent;
         position: absolute;
-        color: antiquewhite;
-        font-size: 20PX;
+        color: antiquewhite ;
+        font-size: 20px;
     }
 
-    ul {
+    nav a{
+        text-decoration: none;
+        color: antiquewhite;
+    }
+
+
+    .links{
         display: flex;
         flex-direction: row;
-        gap: 20px;
-    }
-
-    nav li {
-        list-style: none;
+        gap: 10px;
     }
 }
 

@@ -3,7 +3,7 @@
         height: 900px;
         width: 100%;
         display: grid;
-        grid-template-rows: 20% 75%;
+        grid-template-rows: 20% 80%;
         background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
@@ -14,13 +14,23 @@
 
     .images-tasklist{
         display:grid;
-        grid-template-rows: 50% 50%;
+        justify-items: center;
+        grid-template-rows: 33% 33% 33%;
         gap: 30px;
     }
 
     .images-tasklist img {
         border-radius: 10px;
-        height: 35vh;
+        height: 22vh;
+    }
+
+
+    h1{
+        text-align: center;
+    }
+    span{
+        text-align: center;
+        font-size: calc(1em + 2vw);
     }
 
     .first-row-imgs{

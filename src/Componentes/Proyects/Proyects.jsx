@@ -6,7 +6,7 @@ import Tasklist from "./Tasklist/Tasklist";
 const Projects = () => {
   return (
     <>
-      <div className="projects-container">
+      <div className="projects-container" id="projects">
         <h1>Projects</h1>
         <div className="chapter-div">
           <span>Chapter 1</span>

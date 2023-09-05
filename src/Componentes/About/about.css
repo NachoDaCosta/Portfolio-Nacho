@@ -1,8 +1,8 @@
 @media all and (max-width: 1024PX) {
-section {
+#about {
         display: flex;
         flex-direction: column;
-        background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/about.jpg");
+        background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
         background-repeat: no-repeat;
         background-size: 100% 100%;
         width: 100%;
@@ -73,8 +73,7 @@ section {
         font-size: 80px;
     }
 
-    .about-text p {
-        padding: 10px;
+    .about-text  {
         font-size: calc(1em + 2vw);
     }
 
@@ -102,13 +101,14 @@ section {
     }
 
     .redes {
-        width: 100%;
+        position: relative;
+        left: 10px;
+        width: 80%;
         display: flex;
         justify-items: center;
         flex-direction: row;
         gap: 20px;
         font-size: calc(2em + 1vw);
-        padding: 10px;
     }
 
     .icons {
@@ -123,16 +123,20 @@ section {
         text-decoration: none;
         color: #2f5881;
     }
+
+    .description{
+        padding: 10px;
+    }
 }
 
 
 /*------------PC----------------*/
-@media (min-width: 1025px) and (max-width: 2048px) {
+@media (min-width: 1025px) and (max-width: 2048px) { /*MQ PC*/
 section {
     display: grid;
     object-fit: contain;
     grid-template-columns: 50% 50%;
-    background-image: url("D:/Proyectos/Portfolio/portfolio/public/imagenes/about.jpg");
+    background-image: url("D:\Proyectos\Portfolio\portfolio\public\imagenes\pr3.jpg");
     background-repeat: no-repeat;
     background-size: 100% 100%;
     width:100%;

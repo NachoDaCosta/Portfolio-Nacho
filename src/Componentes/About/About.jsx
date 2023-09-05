@@ -4,7 +4,7 @@ import "boxicons";
 
 const About = () => {
   return (
-    <section>
+    <sectio id="about">
       <div className="image-column-container">
         <div className="fondo-yo">
           <img alt="" src="./imagenes/yo.png" className="yo-image" />
@@ -18,14 +18,14 @@ const About = () => {
       <div className="about-container">
         <div className="about-text">
           <h1>About</h1>
-          <p>
+          <div className="description">
             Hello, my name is Juan Ignacio but you can call me nacho. I am 21
             years old and I am a Computer Engineering student and I really want
             to develop myself as a professional in the field of web development.
             I have knowledge in: React, Node, Html, Css and PostgreSQL
-          </p>
+          </div>
         </div>
-        <div className="contact-container">
+        <div className="contact-container" id="contact">
           <h1>Contact</h1>
           <div className="redes-container">
             <div className="redes">
@@ -75,7 +75,7 @@ const About = () => {
           </div>
         </div>
       </div>
-    </section>
+    </sectio>
   );
 };
 

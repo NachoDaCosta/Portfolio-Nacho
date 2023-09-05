@@ -5,6 +5,7 @@ import About from "./Componentes/About/About";
 import 'boxicons'
 import Education from "./Componentes/Education/Education";
 import Projects from "./Componentes/Proyects/Proyects";
+import Footer from "./Componentes/Footer/Footer";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
       <About />
       <Education />
       <Projects />
+      <Footer />
     </>
   );
 }
